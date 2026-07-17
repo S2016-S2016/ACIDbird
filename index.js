@@ -35,81 +35,62 @@ const TICK_LENGTH = 50
 const HIDDEN_STYLE = 'position: fixed; width: 1px; height: 1px; overflow: hidden; top: -10px; left: -10px;'
 
 const ART = [
-  `
-┊┊ ☆┊┊┊┊☆┊┊☆ ┊┊┊┊┊
-┈┈┈┈╭━━━━━━╮┊☆ ┊┊
-┈☆ ┈┈┃╳╳╳▕╲▂▂╱▏┊┊
-┈┈☆ ┈┃╳╳╳▕▏▍▕▍▏┊┊
-┈┈╰━┫╳╳╳▕▏╰┻╯▏┊┊
-☆ ┈┈┈┃╳╳╳╳╲▂▂╱┊┊┊
-┊┊☆┊╰┳┳━━┳┳╯┊ ┊ ☆┊
-  `,
-  `
-░░▓▓░░░░░░░░▓▓░░
-░▓▒▒▓░░░░░░▓▒▒▓░
-░▓▒▒▒▓░░░░▓▒▒▒▓░
-░▓▒▒▒▒▓▓▓▓▒▒▒▒▓░
-░▓▒▒▒▒▒▒▒▒▒▒▒▒▒▓
-▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓
-▓▒▒▒░▓▒▒▒▒▒░▓▒▒▓
-▓▒▒▒▓▓▒▒▒▓▒▓▓▒▒▓
-▓▒░░▒▒▒▒▒▒▒▒▒░░▓
-▓▒░░▒▓▒▒▓▒▒▓▒░░▓
-░▓▒▒▒▓▓▓▓▓▓▓▒▒▓░
-░░▓▒▒▒▒▒▒▒▒▒▒▓░░
-░░░▓▓▓▓▓▓▓▓▓▓░░░
-  `
+ 
 ]
 
 const SEARCHES = [
-  'jshop',
+  'slimegang',
   'ptoszek',
-  'ptak',
-  'kanarek',
-  'jaczup'
+  'acidbird',
+  'BIRDY',
+  'S2016'
 ]
 
 const VIDEOS = [
-  'media/videos/jaczup.mp4',
-  'media/videos/duck.mp4',
   'media/videos/rickroll.mp4',
-  'media/videos/golomb.mp4',
-  'media/videos/mushbox.mp4',
-  'media/videos/clearmax.mp4',
-  'media/videos/freestrona.mp4',
-  'media/videos/ajhsdfhjasdbhfjasdfs.mp4',
   'media/videos/v09044g40000cgr968jc77u1t2krb89g.mov',
-  'media/videos/intro.mp4',
-  'media/videos/szybkakaczka.mp4', // added by @dan64iel
-  'media/videos/kaczuszka.mp4', //added by @imzeme
   'media/videos/gratulacje.mp4', //added by @GameShoot8050
-  'media/videos/puddi.mp4' //added by @MariaWasNotAvailable
+  'media/videos/puddi.mp4', //added by @MariaWasNotAvailable
+  'media/videos/warszawiak.mp4', //added by @s2016-s2016
+  'media/videos/Chinaski.mp4', //added by @s2016-s2016
+  'media/videos/musik.mp4', //added by @s2016-s2016
+  'media/videos/hm.mp4', //added by @s2016-s2016
+  'media/videos/danc.mp4' //added by @s2016-s2016
 ]
 
 const FILE_DOWNLOADS = [
-  'media/images/ptok.jpg',
-  'media/images/jaczup.jpg',
-  'media/images/jaczupme.jpg',
-  'media/images/ptoszek.jpg',
-  'media/images/ptakwspodniach.jpg',
-  'media/images/kichajacyptoszek.jpg',
-  'media/images/lubieptoszki.png',
-  'media/images/zimowyptoszek.jpeg', // added by @dan64iel
-  'media/images/zlyptok.jpeg', //added by @imzeme
-  'media/images/grubyptok.jpg', //added by @imzeme
-  'media/images/ptokzjajami.jpeg', //added by @MARECKIyt
-  'media/images/ptiszka.jpg',
+  'media/pictures/4004.jpg',
+  'media/pictures/TUFF.gif',
+  'media/pictures/e350873e-a304-44f8-b059-077ae5bce078-1789184406.png',
+  'media/pictures/eats.jpg',
+  'media/pictures/freaky.jpg',
+  'media/pictures/gop.jpg',
+  'media/pictures/hi.jpg',
+  'media/pictures/sneaker.jpg',
+  'media/pictures/xd.jpg',
+  'media/videos/rickroll.mp4',
+  'media/videos/v09044g40000cgr968jc77u1t2krb89g.mov',
+  'media/videos/gratulacje.mp4', //added by @GameShoot8050
+  'media/videos/puddi.mp4', //added by @MariaWasNotAvailable
+  'media/videos/warszawiak.mp4', //added by @s2016-s2016
+  'media/videos/Chinaski.mp4', //added by @s2016-s2016
+  'media/videos/musik.mp4', //added by @s2016-s2016
+  'media/videos/hm.mp4', //added by @s2016-s2016
+  'media/videos/danc.mp4' //added by @s2016-s2016
+
 ]
 
 const PHRASES = [
-  'hello my name is ptoszek, lol',
+  'IAIAIAIAIAIAIIAIAIAIAIAAIIAIAIAIAIAIIAIAIAIAIAIAIAAIIAIIAIAIAIAIAIAIAIAI',
   'birds are funny lalalalalalalallalala',
-  'wgl co u cb bo u mn dbr',
-  'knuuurrr eksplozja',
+  'Ai crying emoji phonk',
+  'OWAIDOAWDJOAWDJWAIAWDOAWDOIJAWDOJIDAWOJIDAWOJDAOJIDAWOJIDAWFYEUYGVBV',
   'hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw',
   'abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz',
-  'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak',
+  'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAA',
   'eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo'
+  'SHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSH'
+  'Chłopak z Warszawy wygrał pół miliona złotych w oficjalnej aplikacji mobilnej. On siedział na facebook, zobaczył reklamę aplikacji mobilnej, pobrał aplikacje, zaczął grać i wygrał pięć tysięcy złotych. I jak to sie zdarzyło, teraz sie dowiemy. Uwielbiam grać, to moja pasja. Aby wygrywać lepiej nie słuchać ludzi, którzy nic na tym się nie rozumieją, którzy nic nigdy nie wygrywali, ilu ludzi już zostało milionerami. Część pieniędzy spędziliśmy na charytatywności, część inwestowaliśmy w mieszkanie, które w przyszłości będzie przenosić zyski. Jeszcze część spędziliśmy na podróże. Życie jest piękne, zarówno jak przed wygraniem, tak i po nim. Ale teraz mamy lepsze życie, jakościowe, ponieważ możemy sobie pozwolić na to, o czym wcześniej tylko marzyliśmy.'
 ]
 
 const LOGOUT_SITES = {
@@ -132,7 +113,6 @@ const LOGOUT_SITES = {
   Wordpress: ['GET', 'https://wordpress.com/wp-login.php?action=logout'],
   Yahoo: ['GET', 'https://login.yahoo.com/config/login?.src=fpctx&logout=1&.direct=1&.done=https://www.yahoo.com/'],
   YouTube: ['POST', 'https://www.youtube.com', { action_logout: '1' }],
-  JShop: ['GET', 'https://jshop.partners/panel/logout'],
   Vimeo: ['GET', 'https://vimeo.com/log_out'], // added by @intexpression
   Tumblr: ['GET', 'https://www.tumblr.com/logout'], // added by @intexpression
   Allegro: ['GET', 'https://allegro.pl/wyloguj?origin_url=/'], // added by @intexpression
@@ -153,6 +133,12 @@ const LOGOUT_SITES = {
   VK: ['GET', 'https://vk.com/exit'], // added by @MARECKIyt
   StackOverflow: ['GET', 'https://stackoverflow.com/users/logout'], // added by @MARECKIyt
   Asana: ['POST', 'https://app.asana.com/app/asana/-/logout'], // added by @Hyd3r1
+  Chatgpt: ['POST', 'https://chatgpt.com/backend-api/auth/logout'], // added by @S2016-S2016
+  Claude: ['POST', 'https://claude.ai/api/auth/logout'], // added by @S2016-S2016
+  Gemini: ['POST', 'https://accounts.google.com/Logout'], // added by @S2016-S2016
+  Craigslist: ['POST', 'https://accounts.craigslist.org/login/logout'], // added by @S2016-S2016
+  Pornhub: ['POST', 'https://www.pornhub.com/user/logout'], // added by @S2016-S2016
+
 }
 
 /**
@@ -168,7 +154,7 @@ let interactionCount = 0
 
 //Bardzo dlugi string xd, ciulowa implementacja ale to chyba lepsze niz ~ 4 miliony znakow w pliku poprostu - added by @9fm
 
-const veryLongString = repeatStringNumTimes(repeatStringNumTimes('zostałeś zptoszkowany!!1 ',100),1500) // - added by @9fm
+const veryLongString = repeatStringNumTimes(repeatStringNumTimes('ez ',100),1500) // - added by @9fm
 
 /**
  * Number of iframes injected into the page for the "super logout" functionality.
@@ -502,6 +488,44 @@ function animateUrlWithEmojis () {
       window.location.hash = s
     }, 100)
   }
+  function animateUrlWithGoons () {
+    const f = ['👈', '👇', '👆', '👉', '👈', '👇', '👆', '👉']
+    const d = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    let m = 0
+
+    setInterval(() => {
+      let s = ''
+      let x = 0
+
+      if (!m) {
+        while (d[x] === 4) {
+          x++
+        }
+
+        if (x >= d.length) m = 1
+        else {
+          d[x]++
+        }
+      } else {
+        while (d[x] === 0) {
+          x++
+        }
+
+        if (x >= d.length) m = 0
+        else {
+          d[x]++
+
+          if (d[x] === 8) d[x] = 0
+        }
+      }
+
+      d.forEach(function (n) {
+        s += f[n]
+      })
+
+      window.location.hash = s
+    }, 100)
+  }
 }
 
 /**
@@ -632,6 +656,37 @@ function openWindow () {
     return "";
   };
   // Added by @wetraks
+}
+/**
+ * Flashes the screen intensely and toggles the inversion state.
+ */
+function flashAndToggleInversion () {
+  const html = document.documentElement
+  
+  // 1. Determine the next inversion state
+  const isInverted = html.style.filter.includes('invert(1)')
+  const targetFilter = isInverted 
+    ? html.style.filter.replace('invert(1)', '').trim() 
+    : (html.style.filter + ' invert(1)').trim()
+
+  // 2. Perform the rapid flashing effect using a temporary overlay
+  const flashOverlay = document.createElement('div')
+  flashOverlay.style = 'position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:999999;pointer-events:none;mix-blend-mode:difference;background-color:white;'
+  document.body.appendChild(flashOverlay)
+
+  let flashes = 0
+  const flashInterval = setInterval(() => {
+    // Rapidly toggle visibility to create a seizure-inducing strobe effect
+    flashOverlay.style.display = flashOverlay.style.display === 'none' ? 'block' : 'none'
+    flashes++
+    
+    if (flashes >= 8) {
+      clearInterval(flashInterval)
+      flashOverlay.remove()
+      // 3. Set the final inverted/uninverted state after the flash completes
+      html.style.filter = targetFilter
+    }
+  }, 40)
 }
 
 /**

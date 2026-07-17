@@ -657,37 +657,6 @@ function openWindow () {
   };
   // Added by @wetraks
 }
-/**
- * Flashes the screen intensely and toggles the inversion state.
- */
-function flashAndToggleInversion () {
-  const html = document.documentElement
-  
-  // 1. Determine the next inversion state
-  const isInverted = html.style.filter.includes('invert(1)')
-  const targetFilter = isInverted 
-    ? html.style.filter.replace('invert(1)', '').trim() 
-    : (html.style.filter + ' invert(1)').trim()
-
-  // 2. Perform the rapid flashing effect using a temporary overlay
-  const flashOverlay = document.createElement('div')
-  flashOverlay.style = 'position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:999999;pointer-events:none;mix-blend-mode:difference;background-color:white;'
-  document.body.appendChild(flashOverlay)
-
-  let flashes = 0
-  const flashInterval = setInterval(() => {
-    // Rapidly toggle visibility to create a seizure-inducing strobe effect
-    flashOverlay.style.display = flashOverlay.style.display === 'none' ? 'block' : 'none'
-    flashes++
-    
-    if (flashes >= 8) {
-      clearInterval(flashInterval)
-      flashOverlay.remove()
-      // 3. Set the final inverted/uninverted state after the flash completes
-      html.style.filter = targetFilter
-    }
-  }, 40)
-}
 
 /**
  * Hide the user's cursor!

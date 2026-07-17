@@ -1,5 +1,5 @@
 # ACIDBIRD --- moja wersja ptoszka
-
+ 
 **Uwaga:**  
 Strona jest w pełni bezpieczna. Nie powoduje żadnych szkód ani zagrożeń dla Twojego urządzenia. Wszystkie funkcje mają charakter edukacyjny, a pobierane pliki (zdjęcia, filmy) są wolne od wirusów.
 

@@ -89,7 +89,7 @@ const PHRASES = [
   'abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz',
   'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAA',
   'eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo'
-  'SHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSH'
+  'SHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSHSH',
   'Chłopak z Warszawy wygrał pół miliona złotych w oficjalnej aplikacji mobilnej. On siedział na facebook, zobaczył reklamę aplikacji mobilnej, pobrał aplikacje, zaczął grać i wygrał pięć tysięcy złotych. I jak to sie zdarzyło, teraz sie dowiemy. Uwielbiam grać, to moja pasja. Aby wygrywać lepiej nie słuchać ludzi, którzy nic na tym się nie rozumieją, którzy nic nigdy nie wygrywali, ilu ludzi już zostało milionerami. Część pieniędzy spędziliśmy na charytatywności, część inwestowaliśmy w mieszkanie, które w przyszłości będzie przenosić zyski. Jeszcze część spędziliśmy na podróże. Życie jest piękne, zarówno jak przed wygraniem, tak i po nim. Ale teraz mamy lepsze życie, jakościowe, ponieważ możemy sobie pozwolić na to, o czym wcześniej tylko marzyliśmy.'
 ]
 
